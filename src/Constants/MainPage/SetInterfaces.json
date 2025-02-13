@@ -1,0 +1,50 @@
+{
+    "MainSlideBar":[
+        {
+            "src":"/images/EstatuaLeos.jpeg",
+            "mensage":"",
+            "link":""
+        },
+        {
+            "src":"/images/Guara.jpeg",
+            "mensage":"",
+            "link":""
+        },
+        {
+            "src":"/images/GuardaVoando.jpeg",
+            "mensage":"",
+            "link":""
+        },
+        {
+            "src":"/image/PaisagemLonge.jpeg",
+            "mensage":"",
+            "link":""
+        },
+        {
+            "src":"/image/pescadores.jpeg",
+            "mensage":"",
+            "link":""
+        },
+        {
+            "src":"/image/PorDoSol.jpeg",
+            "mensage":"",
+            "link":""
+        },
+        {
+            "src":"/image/PorDoSolCentro.jpeg",
+            "mensage":"",
+            "link":""
+        }
+    ],
+    "MainPageTopMenu":[
+        { "id": 1, "text": "Home", "link": "/" },
+        { "id": 2, "text": "Eventos", "link": "/eventos" },
+        { "id": 3, "text": "Calendário", "link": "/calendario" },
+        { "id": 4, "text": "Contato", "link": "/contato" },
+        { "id": 5, "text": "Comite", "link": "/contato" },
+        { "id": 6, "text": "Subimissao", "link": "/contato" },
+        { "id": 7, "text": "noticias","link": "/contato" }
+    ]
+
+
+}
