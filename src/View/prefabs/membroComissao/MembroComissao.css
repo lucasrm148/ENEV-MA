@@ -1,0 +1,97 @@
+.MembroComissaoPrincipal{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden
+}
+.MembroComissaoAuxiliado{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden
+}
+
+@media screen and (min-width: 768px) {
+    .MebroComissaoTextDiv{
+        width: 75%;
+        height: 100%;
+    }
+    .imgemMembroComissao{
+        width: 100%;
+        height: 100%;
+        object-fit:contain
+    }
+    .MembroComissaoText{
+        font-size: medium;
+    }
+    .MembroComissaoTitle{
+        font-size:x-large;
+    }
+    .MembroComissaoSecundario{
+       display: flex;
+       flex: 1;
+       flex-direction: column;
+       border: 2px;
+       border-style: dotted;
+       border-color: black;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        align-items: center;
+    }
+    .imgemMembroComissaoDivSecundario{
+        width: 50%;
+        border-radius: 50px;
+    }
+    .imgemMembroVolutario{
+        width: 100%;
+        height: 100%;
+        object-fit:contain;
+        border-radius: 60px;
+    }
+    .MembroComissaoTitleVolutario{
+        font-size:medium;
+        flex:1;   
+    }
+    .popupTextVolutario{
+        position: absolute;
+        top: 100%; /* Coloca o pop-up logo abaixo do pai */
+        left: 0; /* Alinha à esquerda do pai */
+        width: 200px; /* Largura do pop-up */
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000; /* Garante que o pop-up fique acima de outros elementos */
+        transition: opacity 0.3s, visibility 0.3s; /* Transição suave para mostrar/ocultar */
+    }
+}
+@media screen and (max-width: 767px) {
+    .imgemMembroComissaoDiv{
+        width: 35%;
+        height: 80%;
+     }
+    .MebroComissaoTextDiv{
+        width: 75%;
+        height: 100%;
+    }
+    .imgemMembroComissao{
+        width: 100%;
+        height: 100%;
+        object-fit:fill
+    }
+    .MembroComissaoText{
+        font-size: small;
+    }
+    .MembroComissaoTitle{
+        font-size:medium;
+    }
+}

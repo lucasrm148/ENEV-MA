@@ -3,19 +3,17 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background:  linear-gradient(10deg, #c0442e ,#ffffff,#ffffff, #c0442e );
 }
-
 .top-bar {
     width: 100%;
-    background-color: rgba(38, 43, 34, 0.35);
+   background-color: rgb(11, 11, 11);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 #main_logo {
     display: flex;
-    width: 75%;
-    margin-top: 5%;
+    width: 90%;
+    margin-top: 0%;
+    margin-bottom: 0%;
     align-self: center;
     justify-self:center;
 }
@@ -23,21 +21,38 @@
     margin-top: 1%;
 }
 .Button-MainPage{
-    font-size: large;
+    font-size:large;
 }
-#slideIntial{
+#logo-menor{
+    border-radius: 2%;
+}
+#slider-helper{
+    display: flex;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    background-color:rgba(14, 15, 14, 0.2);
-    border-radius: 50px;
+    align-items: center;
 }
-/* Estilos para Desktop (telas maiores que 768px) */
 
+/* Estilos para Desktop (telas maiores que 768px) */
+.menu-link{
+    color: rgb(255, 255, 255);
+}
 @media screen and (min-width: 768px) {
+    .top-bar-menu-div{
+        width: 100%;
+        display: flex;
+    }
+    #slideIntial{
+        width: 60%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color:rgba(25, 23, 23, 0.7);
+        border-radius: 50px;
+    }
     .top-bar {
         height: 90px;
     }
@@ -48,7 +63,7 @@
         align-items: center;
         height: 100%;
         width: 100%;
-        font-size:3.5dvh;
+        font-size:x-large;
     }
     .top-bar-menu{
         list-style-type:square;
@@ -61,12 +76,9 @@
         box-shadow: #ffffff;
         max-width: 150px;
         width: 20%;
-        margin-left:40px;
-       
+        margin-left:40px; 
     }
-    .menu-link{
-        color: rgb(255, 255, 255);
-    }
+    
     .button_div{
         width: 70%;
         display:flex;
@@ -98,6 +110,30 @@
         display: flex;
         flex-direction: column;
         padding: 10px 0;
+    }
+    .button_div{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        height: 50px;
+        align-items:center;
+        justify-content: space-between;
+    }
+    .Button-mainPage{
+        width: 60%;
+        margin-top: 3%;
+        height: 100%;
+        display:flex;
+        border-radius: 30px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #slideIntial{
+        width:75%;
+        height: 45%;
+        background-color:rgba(25, 23, 23, 0.6);
+        border-radius: 50px;
     }
 
 }

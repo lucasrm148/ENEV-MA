@@ -1,8 +1,9 @@
 {
     "EventData":{
-        "Day1":"26/06",
-        "Day2":"27/06",
-        "EventDataTime":"Jun 26 2025 00:00:00"
+        "Day1":"28/08",
+        "Day2":"29/08",
+        "EventDataTime":"2025-08-28T12:00:00",
+        "EventDataTime2":"Jun 26 2025 00:00:00"
     },
     "Local":{
         "localText":"A definir",

@@ -1,0 +1,93 @@
+#DescricaoEventoPage{
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-color: hsla(0, 0%, 100%, 0.594);
+    align-self: center;
+    justify-self: center;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 20px;
+
+}
+
+#sobrenois{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    #DescricaoEventoPage{
+        width: 80%;
+        margin: 2%;
+        margin-bottom: 1% ;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    #DescricaoEventoPage-main-page{
+        font-size: xxx-large;
+        text-align: center;
+        text-justify:auto
+    }
+    .text-descricao{
+        width: 100%;
+    }
+    #sobrenois{
+        width: 98%;
+    }
+    .buttonSaibaMais{
+        width: 20%;
+        border-radius:20px ;
+        border-color: bisque;
+        background-color: hsla(0, 0%, 100%, 0.738);
+        margin-bottom: 3%;
+    }
+    .textbuttonSaibaMais{
+        width: 95%;
+        font-size: x-large;
+        text-align: center;
+        align-self: center;
+        justify-self: start;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #DescricaoEventoPage-main-page{
+        font-size: xx-large;
+        width: 97%;
+        justify-self: center;
+        
+    }
+    .text-descricao{
+        width: 95%;
+        font-size: large;
+        text-align: center;
+        align-self: center;
+        justify-self: start;
+    }
+    .buttonSaibaMais{
+        width: 75%;
+        border-radius:20px ;
+        border-color: bisque;
+        background-color: hsla(0, 0%, 100%, 0.738);
+        margin-bottom: 3%;
+    }
+    .textbuttonSaibaMais{
+        width: 95%;
+        font-size: large;
+        text-align: center;
+        align-self: center;
+        justify-self: start;
+    }
+
+}

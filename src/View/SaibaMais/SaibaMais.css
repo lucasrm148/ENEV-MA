@@ -1,0 +1,49 @@
+#SaibaMaisPage{
+    width: 93%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-color: hsla(0, 0%, 100%, 0.80);
+    align-self: center;
+    justify-self: center;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 20px;
+
+}
+  
+.TextGrup{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+}
+.DescricaoEvento{
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .text-SaibaMais{  
+        font-size: large;
+    }
+    .buttonSaibaMais{
+        width: 20%;
+        border-radius:20px ;
+        border-color: bisque;
+        background-color: hsla(0, 0%, 100%, 0.738);
+        margin-bottom: 3%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .text-SaibaMais{  
+        font-size: large;
+    }
+
+}

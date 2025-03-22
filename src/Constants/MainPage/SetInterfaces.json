@@ -16,22 +16,22 @@
             "link":""
         },
         {
-            "src":"/image/PaisagemLonge.jpeg",
+            "src":"/images/PaisagemLonge.jpeg",
             "mensage":"",
             "link":""
         },
         {
-            "src":"/image/pescadores.jpeg",
+            "src":"/images/pescadores.jpeg",
             "mensage":"",
             "link":""
         },
         {
-            "src":"/image/PorDoSol.jpeg",
+            "src":"/images/PorDoSol.jpeg",
             "mensage":"",
             "link":""
         },
         {
-            "src":"/image/PorDoSolCentro.jpeg",
+            "src":"/images/PorDoSolCentro.jpeg",
             "mensage":"",
             "link":""
         }
@@ -44,6 +44,34 @@
         { "id": 5, "text": "Comite", "link": "/contato" },
         { "id": 6, "text": "Subimissao", "link": "/contato" },
         { "id": 7, "text": "noticias","link": "/contato" }
+    ],
+    "dir":"/public/images/",
+    "MainPageConvidados":[
+        {
+            "id":0,
+            "nome":"Ilana Miriam",
+            "descricao":"Professor 1 professora  Lider Do Nucleo De Evidecias do Maranhão",
+            "descricao_completa":"pos-doutura em Enfermagem na area das politicas publicas na universidade federal do Maranhão",
+            "smallImage":"/images/testes/palestrante 1.jpg",
+            "src":"/images/testes/palestra 1.jpg"
+        },
+        {
+            "id":2,
+            "nome":"Walkiria",
+            "descricao":"Professor 2 Doutorando em Medicina",
+            "descricao_completa":"pos-doutura em Enfermagem na area das politicas publicas na universidade federal do Maranhão",
+            "smallImage":"/images/testes/palestrante 2.jpg",
+            "src":"/images/testes/palestra 2.jpg"
+        },
+        {
+            "id":3,
+            "nome":"teste",
+            "descricao":"Professor 3 Doutorando em Medicina",
+            "descricao_completa":"pos-doutura em Enfermagem na area das politicas publicas na universidade federal do Maranhão",
+            "smallImage":"/images/testes/palestrante 3.jpg",
+            "src":"/images/testes/palestra 3.jpg"
+        }
+        
     ]
 
 

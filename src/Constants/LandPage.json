@@ -1,0 +1,81 @@
+{
+    "DescricaoLandPage": [
+        {
+            "style":"h5",
+            "descricao":"SIMPIE NORDESTE - simpósio em politicas informadas  por evidências nordeste."
+        },
+        {
+            "style": "p",
+            "descricao": "Esse evento é um espaço para refletir e compartilhar experiências sobre como as evidências científicas e dados sólidos podem transformar a formulação e a implementação de políticas públicas mais eficazes e justas em nossa região."
+        },
+        {
+            "style": "h5",
+            "descricao": "ENEV-MA - Encontro do Núcleo de Evidências do Maranhão"
+        },
+        {
+            "style": "p",
+            "descricao": "O Núcleo de Evidências do Maranhão foi estabelecido para unir profissionais e especialistas dedicados a usar informações científicas e dados empíricos na orientação das decisões em nosso estado. Em um contexto repleto de desafios e demandas sociais, é fundamental que as políticas públicas sejam fundamentadas em evidências, assegurando não apenas a eficiência na gestão dos recursos, mas também a melhoria da qualidade de vida da população maranhense."
+        },
+        {
+            "style": "p",
+            "descricao": "Nesses 2 dias discutiremos como os dados e as pesquisas podem ser aplicados de maneira prática para resolver questões essenciais na área da saúde. Além disso, teremos a oportunidade de trocar experiências sobre a integração entre as diversas esferas do governo, a academia e a sociedade civil, fortalecendo a colaboração para a promoção de um Maranhão mais justo e desenvolvido."
+        }
+    ],
+    "Agenda":{
+        "Dia1":[
+            {
+                "ativiade":"atividade 1",
+                "descricao": "palestra 1 ",
+                "hora": "08:00"      
+            },
+            {
+                "ativiade":"atividade 2",
+                "descricao": "palestra 2",
+                "hora": "09:00"      
+            },
+            {
+                "ativiade":"atividade 3",
+                "descricao": "palestra 3",
+                "hora": "10:00"      
+            },
+            {
+                "ativiade":"atividade 4",
+                "descricao": "palestra 4",
+                "hora": "11:00"      
+            },
+            {
+                "ativiade":"atividade 5",
+                "descricao": "palestra 5",
+                "hora": "12:00"      
+            }
+        ],
+        "Dia2":[
+            {
+                "ativiade":"atividade 1",
+                "descricao": "palestra 1 ",
+                "hora": "08:00"      
+            },
+            {
+                "ativiade":"atividade 2",
+                "descricao": "palestra 2",
+                "hora": "09:00"      
+            },
+            {
+                "ativiade":"atividade 3",
+                "descricao": "palestra 3",
+                "hora": "10:00"      
+            },
+            {
+                "ativiade":"atividade 4",
+                "descricao": "palestra 4",
+                "hora": "11:00"      
+            },
+            {
+                "ativiade":"atividade 5",
+                "descricao": "palestra 5",
+                "hora": "12:00"      
+            }
+        ]
+       
+    }
+}

@@ -1,0 +1,94 @@
+#AgendaMainPage{
+    width: 90%;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+    margin: 5%;
+}
+
+
+@media screen and (max-width: 767px) {
+    #AgendaMainPage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dia-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 90%;
+        height: 100%;
+        justify-self: flex-start;
+        background-color: hsl(208, 100%, 97%,0.90);
+        border-radius: 20px;
+        margin-top: 5%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .lista-agenda{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .agenda-item{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        font-size:large;
+    }
+    .TituloDia{
+        margin-top: 5%;
+        align-self: center;
+        font-size: xx-large;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #AgendaMainPage{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;   
+    }
+    
+    .dia-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 45%;
+        height: 100%;
+        justify-self: flex-start;
+        background-color: hsl(208, 100%, 97%,0.90);
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .lista-agenda{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .agenda-item{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        font-size:large;
+    }
+    .TituloDia{
+        margin-top: 5%;
+        align-self: center;
+        font-size: xx-large;
+    }
+}

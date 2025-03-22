@@ -2,35 +2,19 @@ import React from "react";
 import UserDeviceType from "../../../Controller/ClienteInfo/UserDeviceType"
 import GeneralData from "../../../Constants/GeneralData.json"
 import "./MainPage.css"
-import logo from "./../../../resourses/image/old_logo.png";
 import 'font-awesome/css/font-awesome.min.css';
 import SlideShow from "./../../prefabs/SliderBar/SlideBar.js";
 import InterfaceData from "../../../Constants/MainPage/SetInterfaces.json";
-const { MainPageTopMenu, MainSlideBar } = InterfaceData;
-console.log(MainSlideBar);
-const TopBarPropDesktop = ({ styles }) => {
-    const menuItems = MainPageTopMenu;
-    return (
-        <ul className="top-bar-menu" style={styles}>
-            {menuItems.map(item => (
-                <li key={item.id} className="menu-item">
-                    <a className="menu-link" href={item.link}>{item.text}</a>
-                </li>
-            ))}
-        </ul>
-    );
-}
+const {  MainSlideBar } = InterfaceData;
+
 
 const MainPage = () => {
-    const isMobile = UserDeviceType();
     return (
-        <div className="mainPage">
-            <div className='top-bar'>
-                {!isMobile && <TopBarPropDesktop styles={{ listStyle: 'none', margin: 0, padding: 0 }} />}
-            </div>
+        <div id="MainPage">
             < SlideShow slides={MainSlideBar} >
+                <div id="slider-helper">
                 <div id="slideIntial" className="insideSlide">
-                    <img src={logo} id="main_logo" className="Logo-Evento" alt="logo"></img>
+                    <img src={`/images/logo_composta_sem_fundo.png`}  id="main_logo" className="Logo-Evento" alt="logo"></img>
                     <div className="button_div">
                         <button className="Button-mainPage">
                             <i className="fa fa-calendar-o" aria-hidden="true"></i>
@@ -45,6 +29,7 @@ const MainPage = () => {
                                 </strong>
                             </a>
                         </button>
+                    </div>
                     </div>
                 </div>
             </SlideShow >

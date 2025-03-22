@@ -1,0 +1,52 @@
+
+#commisao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+}
+.ComissaoOrganizadora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .ComissaoOrganizadora{
+        width: 95%;
+        height: 230px;
+        display: flex;
+    }
+    .MembrosComissaoFuncao{
+        font-size: x-large;
+    }
+    .ComissaoOrganizadoraVolutarios{
+        width: 90%;
+        height: 200px;
+        display: flex;
+        margin-top: 3%;
+    }   
+}
+@media screen and (min-width: 767px) {
+    .ComissaoOrganizadora{
+        width: 90%;
+        height: 270px;
+        display: flex;
+        margin-top: 3%;
+    }
+    .MembrosComissaoFuncao{
+        font-size: x-large;
+        text-align: center;
+    }
+    .ComissaoOrganizadoraVolutarios{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        margin-top: 3%;
+    }
+    .volutarios{
+        display: flex;
+    }
+}
