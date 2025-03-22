@@ -1,4 +1,3 @@
-import { useState } from "react";
 import React from "react";
 import "./MembroComissao.css"
 export const MembroComissaoPrincipal = ({ image = "", nome = "", descricao = "" }) => {
@@ -15,24 +14,19 @@ export const MembroComissaoPrincipal = ({ image = "", nome = "", descricao = "" 
     )
 
 }
-
 export const MembroComissaoSecundario = ({ image, nome, descricao }) => {
-    const [visible, OnChangeVisible] = useState(false)
+
     return (
         <div className="MembroComissaoSecundario">
             <div className="imgemMembroComissaoDivSecundario">
-                <img 
-                    src={image} 
-                    className="imgemMembroVolutario" 
-                    onMouseEnter ={() => {OnChangeVisible(true)}} 
-                    onMouseLeave={() => OnChangeVisible(false)} 
-                    >
-                </img>
+                <img
+                    src={image}
+                    className="imgemMembroVolutario"
+                    alt="Membro"
+                />
             </div>
-                <h3 className="MembroComissaoTitleVolutario">{nome}</h3>
-            <div className="popupTextVolutario" style={{ display: visible ? "flex" : "none" }}>
-                <p className="MembroComissaoText">{descricao}</p>
-            </div>
+            <h3 className="MembroComissaoTitleVolutario">{nome}</h3>
+            <h4 className="MembroComissaoTextVolutario">{descricao}</h4>
         </div>
-    )
-}
+    );
+};

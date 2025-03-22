@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15%;
+    margin-bottom: 55%;
 }
 .ComissaoOrganizadora{
     display: flex;
@@ -22,12 +22,24 @@
     .MembrosComissaoFuncao{
         font-size: x-large;
     }
+    .volutarios{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 97%; 
+    } 
     .ComissaoOrganizadoraVolutarios{
-        width: 90%;
+        width: 130px;
         height: 200px;
         display: flex;
-        margin-top: 3%;
-    }   
+        margin-top: 4%;
+    }
+    .MembroComissaoTextVolutario{
+        visibility: hidden;
+
+    }
+   
 }
 @media screen and (min-width: 767px) {
     .ComissaoOrganizadora{
@@ -42,11 +54,18 @@
     }
     .ComissaoOrganizadoraVolutarios{
         width: 200px;
-        height: 200px;
+        height: 250px;
         display: flex;
-        margin-top: 3%;
+        margin: 4%;
     }
     .volutarios{
+        width: 95%;
         display: flex;
+        margin-top: 5%;
+        border-radius: 50px;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: rgb(249, 245, 239);
     }
 }

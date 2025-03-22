@@ -1,4 +1,4 @@
-.MembroComissaoPrincipal{
+.MembroComissaoPrincipal {
     display: flex;
     width: 100%;
     height: 100%;
@@ -6,9 +6,10 @@
     border-radius: 20px;
     justify-content: center;
     align-items: center;
-    overflow:hidden
+    overflow: hidden;
 }
-.MembroComissaoAuxiliado{
+
+.MembroComissaoAuxiliado {
     display: flex;
     width: 100%;
     height: 100%;
@@ -16,82 +17,125 @@
     border-radius: 20px;
     justify-content: center;
     align-items: center;
-    overflow:hidden
+    overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
-    .MebroComissaoTextDiv{
+    .MembroComissaoSecundario {
+        position: relative;
+    }
+
+    .MebroComissaoTextDiv {
         width: 75%;
         height: 100%;
     }
-    .imgemMembroComissao{
+
+    .imgemMembroComissao {
         width: 100%;
         height: 100%;
-        object-fit:contain
+        object-fit: contain;
     }
-    .MembroComissaoText{
+    .imgemMembroComissaoDiv{
+        height:100%;
+    }
+    .MembroComissaoText {
         font-size: medium;
     }
-    .MembroComissaoTitle{
-        font-size:x-large;
+
+    .MembroComissaoTitle {
+        font-size: x-large;
     }
-    .MembroComissaoSecundario{
-       display: flex;
-       flex: 1;
-       flex-direction: column;
-       border: 2px;
-       border-style: dotted;
-       border-color: black;
+
+    .MembroComissaoSecundario {
+        display: flex;
+        flex-direction: column;
         width: 100%;
         height: 100%;
         overflow: hidden;
         align-items: center;
+        position: relative;
     }
-    .imgemMembroComissaoDivSecundario{
+
+    .imgemMembroComissaoDivSecundario {
         width: 50%;
         border-radius: 50px;
+        transition: transform 0.3s ease;
     }
-    .imgemMembroVolutario{
+
+    .imgemMembroVolutario {
         width: 100%;
         height: 100%;
-        object-fit:contain;
+        object-fit: contain;
         border-radius: 60px;
     }
-    .MembroComissaoTitleVolutario{
-        font-size:medium;
-        flex:1;   
+
+    .MembroComissaoTitleVolutario {
+        font-size: medium;
+        margin-bottom: 1%;
     }
-    .popupTextVolutario{
-        position: absolute;
-        top: 100%; /* Coloca o pop-up logo abaixo do pai */
-        left: 0; /* Alinha à esquerda do pai */
-        width: 200px; /* Largura do pop-up */
-        padding: 10px;
-        background-color: #fff;
-        border: 1px solid #ccc;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        z-index: 1000; /* Garante que o pop-up fique acima de outros elementos */
-        transition: opacity 0.3s, visibility 0.3s; /* Transição suave para mostrar/ocultar */
+
+
+    .MembroComissaoTextVolutario {
+        font-size: small;
     }
 }
+
 @media screen and (max-width: 767px) {
-    .imgemMembroComissaoDiv{
+    .imgemMembroComissaoDiv {
         width: 35%;
         height: 80%;
-     }
-    .MebroComissaoTextDiv{
+    }
+
+    .MebroComissaoTextDiv {
         width: 75%;
         height: 100%;
     }
-    .imgemMembroComissao{
+
+    .imgemMembroComissao {
         width: 100%;
         height: 100%;
-        object-fit:fill
+        object-fit: fill;
     }
-    .MembroComissaoText{
+
+    .MembroComissaoText {
         font-size: small;
     }
-    .MembroComissaoTitle{
-        font-size:medium;
+
+    .MembroComissaoTitle {
+        font-size: medium;
+    }
+    /*algum dia eu separa isso assinado lucas "algum dia! nao hj"*/
+    .MembroComissaoSecundario {
+        position: relative;
+    }
+    .MembroComissaoSecundario {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        align-items: center;
+        position: relative;
+    }
+    .imgemMembroComissaoDivSecundario {
+        width: 50%;
+        border-radius: 50px;
+        transition: transform 0.3s ease;
+    }
+    .imgemMembroVolutario {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 60px;
+    }
+
+    .MembroComissaoTitleVolutario {
+        font-size: medium;
+        margin-bottom: 1%;
+    }
+
+
+    .MembroComissaoTextVolutario {
+        font-size: small;
     }
 }
