@@ -7,6 +7,7 @@
     margin-bottom: 55%;
 }
 .ComissaoOrganizadora{
+    background-color: rgb(249, 245, 239);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +16,7 @@
 
 @media screen and (max-width: 767px) {
     .ComissaoOrganizadora{
+        background-color: rgb(249, 245, 239);
         width: 95%;
         height: 230px;
         display: flex;
@@ -25,9 +27,12 @@
     .volutarios{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content:  space-around;
         align-items: center;
         width: 97%; 
+        border-radius: 20px;
+        background-color: rgb(249, 245, 239);
+        box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.16);
     } 
     .ComissaoOrganizadoraVolutarios{
         width: 130px;
@@ -53,10 +58,10 @@
         text-align: center;
     }
     .ComissaoOrganizadoraVolutarios{
-        width: 200px;
-        height: 250px;
+        margin-top: 5%;
+        width: 270px;
+        height: 350px;
         display: flex;
-        margin: 4%;
     }
     .volutarios{
         width: 95%;
@@ -67,5 +72,6 @@
         align-items: center;
         flex-wrap: wrap;
         background-color: rgb(249, 245, 239);
+        box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.16);
     }
 }

@@ -11,9 +11,8 @@ const AgendaMainPage =()=>{''
                 {LandPage.Agenda.Dia1.map((item, index)=>{
                     return (
                         <li key={index} className="agenda-item">
-                              <p className="hora">{item.hora}</p>
-                            <p className="atividade">{item.ativiade}</p>
-                            <p className="descricao">{item.descricao}</p>
+                              <p className="hora">{item.hora}-</p>
+                            <p className="atividade">{item.descricao}</p>
                         </li>
                     )
                 })}
@@ -25,7 +24,7 @@ const AgendaMainPage =()=>{''
                 {LandPage.Agenda.Dia2.map((item, index)=>{
                     return (
                         <li key={index} className="agenda-item">
-                             <p className="hora">{item.hora}</p>
+                             <p className="hora">{item.hora}-</p>
                             <p className="atividade">{item.ativiade}</p>
                             <p className="descricao">{item.descricao}</p>
                         </li>

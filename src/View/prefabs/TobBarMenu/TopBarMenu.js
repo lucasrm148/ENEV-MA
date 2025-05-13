@@ -44,24 +44,3 @@ export const TopBarPropDesktop = ({ styles }) => {
 
 
 export default TopBarPropDesktop
-/*
- <div className="top-bar-menu-div" styles={{ listStyle: 'none', margin: 0, padding: 0,  display: isMobile ? 'none' :'flex'  }} >
-        <link><img src={"/images/logo_composta_sem_fundo.png"} id="logo-menor"></img></link>
-        <ul className="top-bar-menu" style={styles}>
-        <li className="menu-item">
-            <Link  className="menu-link" href="#DescricaoEventoPage">Sobre Nois</Link >
-        </li>
-        <li className="menu-item">
-            <Link  className="menu-link" href={"/ComissaoOrganizadora"}>Comissao Organizadora</Link >
-        </li>
-        <li className="menu-item">
-            <a  className="menu-link" href="#escrevasePage"> inscrição </a >
-        </li>
-          {menuItems.map(item => (
-                <li key={item.id} className="menu-item">
-                    <a className="menu-link" href={item.link}>{item.text}</a>
-                </li>
-            ))}
-
-*/ 
-

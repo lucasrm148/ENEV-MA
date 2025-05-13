@@ -105,6 +105,9 @@
 
 /* Estilos para Mobile (telas menores que 768px) */
 @media screen and (max-width: 767px) {
+    .menu-link{
+        white-space: nowrap;
+    }
     #top-bar {
         width: 100%;
         height: 160px;

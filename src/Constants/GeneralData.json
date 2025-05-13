@@ -9,5 +9,8 @@
         "localText":"A definir",
         "LogalCondenadas":"",
         "LocalGoogle":""
-    }    
+    },
+    "links":{
+        "url_api":"http://localhost:3333"
+    }  
 }

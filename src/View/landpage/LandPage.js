@@ -12,6 +12,7 @@ function Landpage() {
       <MainPage />
       <EscrevasePage/>
       <DescricaoEventoPage />
+      <AgendaMainPage />
     </div>
   );
 }

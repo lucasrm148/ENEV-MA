@@ -1,0 +1,142 @@
+#mainDiv{
+    width: 100%;
+    background-color: #fdedcc;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+#listaEscrevase{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.divTextproduto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-center;
+    justify-content: center;
+    flex:3;   
+    font-size:medium;
+    margin-left: 5px;
+}
+.produto{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 2px solid #0000008a;
+    margin-bottom: 3%;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+
+}
+
+.imgProduto{
+    border-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 5px;
+}
+.divbuttonEscrever{
+    display: flex;
+    height: 100%;
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttonEscrever{
+    aspect-ratio: 2 / 1;
+    height: 100%;
+    margin:0;
+    flex:1;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+.buttonEscrever.confirmar{
+    background-color: #25cb23;
+}
+.buttonEscrever.duvida{
+    color: #040404;
+    background-color: #fff308;
+}
+.divText{
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    background-color: #f4f3f0dc;
+    border-radius: 10px;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.TituloProduto{
+  margin: 0px;
+}
+@media screen and (max-width: 767px) {
+    .imgProduto{
+        display: none;
+        height: 40%;
+        margin-left: 5px;
+    }
+    .produto{
+        height: 100px;
+        width: 90%;
+    } 
+    #listaEscrevase{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+    .divTextproduto{
+        flex:2;   
+        margin-left: 5px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .TituloProduto{
+        font-size:xxx-small;
+        margin: none;
+    }
+    .divText{
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        background-color: #f4f3f0dc;
+        border-radius: 10px;
+        box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+        font-size:small;
+    }
+    .buttonEscrever{
+        aspect-ratio: 1 / 1;
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .produto{
+        height: 100px;
+        width: 70%;
+    }
+    .imgProduto{
+        height: 80%;
+        width: 10%;
+    }
+    .divbuttonEscrever{
+        height: 100%;
+    }
+}       

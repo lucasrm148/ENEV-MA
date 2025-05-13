@@ -24,15 +24,14 @@ const Comissao = () => {
                     image="/images/josafa.png">
                 </MembroComissaoPrincipal>
             </div>
-           {/* <div className="ComissaoOrganizadora">
+            <div className="ComissaoOrganizadora">
                 <MembroComissaoPrincipal
-                    nome="Profª Msc. Fernanda Lima"
-                    descricao=""
-                    image=""
-                    >
+                    nome="Fernanda Lima - Psicóloga Mestre em saúde da criança e do adulto"
+                    descricao="Especialista em Gestão de Programas de Residência em Saúde e em Políticas de Saúde Informadas por Evidências pelo Sírio Libanês. Membro do Colégio Brasileiro de Executivos em Saúde. Atua como Assessora do Núcleo de Acompanhamento de Contratos da Secretaria de Saúde da Bahia."
+                    image="/images/fernanda_lima.jpg">
                 </MembroComissaoPrincipal>
-            </div>*/}
-            <h3 className="MembrosComissaoFuncao">Volutarios</h3>
+            </div>
+            <h3 className="MembrosComissaoFuncao">voluntarismo</h3>
             <div className="volutarios">
                 <div className="ComissaoOrganizadoraVolutarios">
                     <MembroComissaoSecundario
@@ -46,14 +45,63 @@ const Comissao = () => {
                         nome="Paula Almeida de Paula"
                         descricao="Enfermeira Mestranda em Saúde da Família (RENASF/UFMA)"
                         image="/images/paula_almeida.png">
-                             {"/public/images/chirley.jpeg"}
+                            
                     </MembroComissaoSecundario>
                 </div>
                 <div className="ComissaoOrganizadoraVolutarios">
                     <MembroComissaoSecundario
                         nome="Chirley Raiany Ferreira Diniz Fontes"
-                        descricao="Estudante de Enfermagem(Edufor) e pesquisadora do Programa(GEPSET)"
-                        image="/images/chirley.jpeg">
+                        descricao="Estudante de Enfermagem (Edufor) e pesquisadora do Programa(GEPSET)"
+                        image="/images/chirley.jpg">
+                    </MembroComissaoSecundario>
+                </div>
+                <div className="ComissaoOrganizadoraVolutarios">
+                    <MembroComissaoSecundario
+                        nome="Yuri Armin Crispim de Moraes"
+                        descricao="Médico de Família e Comunidade (SBMFC), mestrando em Saúde da Família na RENASF, docente e coordenador na Faculdade de Medicina da Edufor IDOMED Estácio"
+                        image="/images/cara_sem_nomejpeg.png">
+                    </MembroComissaoSecundario>
+                </div>
+                <div className="ComissaoOrganizadoraVolutarios">
+                    <MembroComissaoSecundario
+                        nome="Lucas Ribeiro Madeira"
+                        descricao="Programador e Estudante de Ciência da Computação"
+                        image="/images/me.jpg">
+                    </MembroComissaoSecundario>
+                </div>
+                <div className="ComissaoOrganizadoraVolutarios">
+                    <MembroComissaoSecundario
+                        nome="Hudson Andrade"
+                        descricao="graduando em história pela ufma"
+                        image="/images/hudson.jpg">
+                    </MembroComissaoSecundario>
+                </div>
+                <div className="ComissaoOrganizadoraVolutarios">
+                    <MembroComissaoSecundario
+                        nome="Lívia Alessandra Gomes Aroucha"
+                        descricao="Mestre em Enfermagem. Doutoranda em Saúde Coletiva. Especialista em Terapia Intensiva."
+                        image="/images/Livia_Alessandra.jpg">
+                    </MembroComissaoSecundario>
+                </div>
+                <div className="ComissaoOrganizadoraVolutarios">
+                    <MembroComissaoSecundario
+                        nome="José Américo da Silva Filho"
+                        descricao="Mestrando em saúde da família pela Renasf-UFMA.Preceptor do curso de medicina Uniceuma.Médico da Câmara Técnica de Assessoramento do Serviço de Saúde do Estado do Maranhão."
+                        image="/images/Jose_Americo.jpg">
+                    </MembroComissaoSecundario>
+                </div>
+                <div className="ComissaoOrganizadoraVolutarios">
+                    <MembroComissaoSecundario
+                        nome="Andréa Cristina"
+                        descricao="Enfermeira. Professora do Curso de Enfermagem, Campus do Bacanga. Doutora em Ciências pela Escola de Enfermagem de Ribeirão Preto da Universidade de São Paulo."
+                        image="/images/Andrea Cristina.jpg">
+                    </MembroComissaoSecundario>
+                </div>
+                <div className="ComissaoOrganizadoraVolutarios">
+                    <MembroComissaoSecundario
+                        nome="Ana Beatriz Oliveira Rocha"
+                        descricao="Cursando Técnico em Enfermagem no Colégio Universitário (Colun)"
+                        image="/images/Ana Beatriz.jpg">
                     </MembroComissaoSecundario>
                 </div>
             </div>
