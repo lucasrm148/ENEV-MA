@@ -19,7 +19,7 @@ const EscrevasePage = () => {
             <div id="escrevaseTimer">
                 <div className="timerEsfera" id="esfera-mes">
                     <p className="TextTimerEsfera">{timerTo.meses}</p>
-                    <p className="descricaoTimerEsfera"> MESES </p>
+                    <p className="descricaoTimerEsfera"> MES </p>
                 </div>
                 <div className="timerEsfera" id="esfera-dia">
                     <p className="TextTimerEsfera">{timerTo.dias}</p>
@@ -34,8 +34,8 @@ const EscrevasePage = () => {
                     <p className="descricaoTimerEsfera">MINUTOS </p>
                 </div>
             </div>
-            <a href="" onClick={() => navigate("/Escrevase")} id="escrevaseButton">
-                <p id="escrevaseButtonText">inscriçoes embreve</p>
+            <a href="https://www.even3.com.br/i-simpie-nortenordeste-ii-enev-ma-575317/"  id="escrevaseButton">
+                <p id="escrevaseButtonText">inscrições abertas</p>
             </a>
         </div>
         

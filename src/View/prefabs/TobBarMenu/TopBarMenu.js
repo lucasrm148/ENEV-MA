@@ -28,13 +28,13 @@ export const TopBarPropDesktop = ({ styles }) => {
                 </Link>
                 <ul className="top-bar-menu" style={styles}>
                     <li className="menu-item">
-                    <button className="menu-link" onClick={()=>handleClick("DescricaoEventoPage")} >Sobre nois</button>
+                    <button className="menu-link" onClick={()=>handleClick("DescricaoEventoPage")} >Sobre nós</button>
                     </li>
                     <li className="menu-item">
                     <button className="menu-link" onClick={()=>navigate("/ComissaoOrganizadora")} >Organização</button>
                     </li>
                     <li className="menu-item">
-                        <button className="menu-link" onClick={()=>handleClick("escrevasePage")} >Inscrições</button>
+                        <button className="menu-link" onClick={()=>window.location.href="https://www.even3.com.br/i-simpie-nortenordeste-ii-enev-ma-575317/"} >Inscrições</button>
                     </li>
                 </ul>
             </div>

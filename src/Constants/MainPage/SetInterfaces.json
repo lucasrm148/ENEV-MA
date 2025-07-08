@@ -41,8 +41,8 @@
         { "id": 2, "text": "Eventos", "link": "/eventos" },
         { "id": 3, "text": "Calendário", "link": "/calendario" },
         { "id": 4, "text": "Contato", "link": "/contato" },
-        { "id": 5, "text": "Comite", "link": "/contato" },
-        { "id": 6, "text": "Subimissao", "link": "/contato" },
+        { "id": 5, "text": "Comitê", "link": "/contato" },
+        { "id": 6, "text": "Submissão", "link": "/contato" },
         { "id": 7, "text": "noticias","link": "/contato" }
     ],
     "dir":"/public/images/",
