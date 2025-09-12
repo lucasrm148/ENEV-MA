@@ -2,6 +2,7 @@
   "name": "evento_ilana",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://simpienordesteenev-ma.com.br/",
   "dependencies": {
     "@mercadopago/sdk-react": "^1.0.0",
     "classnames": "^2.5.1",

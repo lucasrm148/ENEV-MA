@@ -17,9 +17,9 @@ const MainPage = () => {
                     <img src={`/images/logo_composta_sem_fundo.png`}  id="main_logo" className="Logo-Evento" alt="logo"></img>
                     <div className="button_div">
                         <button className="Button-mainPage">
-                            <i className="fa fa-calendar-o" aria-hidden="true"></i>
+                            <i className="fa fa-calendar-o" aria-hidden="true" href="https://www.even3.com.br/i-simpie-nortenordeste-ii-enev-ma-575317/"></i>
                             <strong>
-                                <p className="Button-MainPage">{GeneralData?.EventData?.Day1 + "-" + GeneralData?.EventData?.Day2}</p>
+                                <p className="Button-MainPage">28-29/08/25</p>
                             </strong>
                         </button>
                         <button className="Button-mainPage">

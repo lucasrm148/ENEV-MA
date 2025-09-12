@@ -2,7 +2,7 @@
     "DescricaoLandPage": [
         {
             "style":"h5",
-            "descricao":"SIMPIE NORDESTE - simpósio em politicas informadas  por evidências nordeste."
+            "descricao":"SIMPIE NORTE NORDESTE - simpósio em politicas informadas  por evidências norte e nordeste."
         },
         {
             "style": "p",
@@ -24,56 +24,92 @@
     "Agenda":{
         "Dia1":[
             {
-                "ativiade":"atividade 1",
-                "descricao": "palestra 1 ",
-                "hora": "08:00"      
+                "descricao": "Boas-vindas com evidências",
+                "palestrante":"Representante da Reitoria da UFMA Representante do Governo do Estado do Maranhão (Governador e Vice-Governador) Representante da Prefeitura de São Luís-MA Representante da Secretaria Estadual de Saúde (SES-MA) Representante da Secretaria Municipal de Saúde de São Luís-MA (Semus) Representantes do Conselho Nacional de Secretários Municipais de Saúde (CONASS) e Conselho Estadual de Saúde (CES-MA) Representantes das Universidades Públicas e Privadas do MA, CE, PI, RN, PB, PE, SE, AL e do Sul da Bahia Representante do Programa de Pós-Graduação Rede Nordeste de Formação em Saúde da Família (UFMA e FIOCRUZ CEARÁ) Diretor do Colégio Universitário (COLUN/UFMA) Mônica Felts de La Roca Soares(Decit/SECTICS/MS) Representante da FAPEMA",
+                "hora": "14:00"      
             },
             {
-                "ativiade":"atividade 2",
-                "descricao": "palestra 2",
-                "hora": "09:00"      
+                
+                "palestrante":"Fábio Cavalcanti – Coordenador Geral de evidências -  (CGEvi/Decit/ SECTICS/MS)",
+                "descricao": "A importância das Políticas Informadas por Evidências (PIE) no processo de tomada de decisão",
+                "hora": "15:00"      
             },
             {
-                "ativiade":"atividade 3",
-                "descricao": "palestra 3",
-                "hora": "10:00"      
+                "palestrante":"Monica Felts de La Roca Soares - Diretora do Departamento de Ciências e Tecnologia – (DECIT/SECTICS/MS)",
+                "descricao": "Como conectar a ciência, tecnologias e políticas públicas em saúde? Olhar estratégico do DECIT",
+                "hora": "15:30"      
             },
             {
-                "ativiade":"atividade 4",
-                "descricao": "palestra 4",
-                "hora": "11:00"      
+                "descricao":"Welcome Coffee",
+                "palestrante":"",
+                "hora": "16:00"      
             },
             {
-                "ativiade":"atividade 5",
-                "descricao": "palestra 5",
-                "hora": "12:00"      
+                "palestrante":"Rafael Schleicher – FIOCRUZ-BSB",
+                "descricao": "Política de Monitoramento e Avaliação do Ministério da Saúde (PMA-MS)",
+                "hora": "16:30"      
+            },
+            {
+                "palestrante":"Ilana Mirian –REPENev-MA/UFMA",
+                "descricao": "Políticas públicas apoiadas por Núcleos de Evidência (NEv’s) nas regiões Nordeste da Saúde: qual a situação atual?",
+                "hora": "17:30"      
+            },
+            {
+                "palestrante":"",
+                "descricao": "Atração cultural",
+                "hora": "18:30"      
             }
         ],
         "Dia2":[
             {
-                "ativiade":"atividade 1",
-                "descricao": "palestra 1 ",
-                "hora": "08:00"      
+                "descricao":"Oficina 1: Aplicação da Ferramenta 4A (Adquirir, Adaptar, Avaliar e Aplicar as evidências científicas ",
+                "palestrante": "Aurelina Aguiar – Rede Evipnet Brasil/CGEvi/Decit/SECTICS/MS.Claudia Goncalves Siqueira Nev/CGEvi/Decit/SECTICS/MS ",
+                "hora": "08:30"      
             },
             {
-                "ativiade":"atividade 2",
-                "descricao": "palestra 2",
-                "hora": "09:00"      
+                "palestrante":"Danilo Castro – Instituto Veredas",
+                "descricao": "oficina 2: Entre a Pesquisa e a Decisão: Estratégias para comunicar evidências com acessibilidade para governos e sociedade",
+                "hora": "08:30"      
             },
             {
-                "ativiade":"atividade 3",
-                "descricao": "palestra 3",
-                "hora": "10:00"      
+                "palestrante":"Livia Probst – Hospital Alemão Oswaldo Cruz (HAOC) e Mestrado Profissional em Gestão e Saúde Coletiva - FOP/Unicamp",
+                "descricao": "oficina 3: Revisão Sistemática: execução e apresentação dos resultados no contexto das Políticas Informadas por Evidências (PIE)",
+                "hora": "08:30"      
             },
             {
-                "ativiade":"atividade 4",
-                "descricao": "palestra 4",
-                "hora": "11:00"      
+                "palestrante":"Rachel Riera - Núcleo de Avaliação de Tecnologias em Saúde/Núcleo de Evidências (NATS/NEv)/Hospital Sírio Libanês (HSL)",
+                "descricao": "Avaliação crítica de Revisões Sistemáticas",
+                "hora": "08:30"      
             },
             {
-                "ativiade":"atividade 5",
-                "descricao": "palestra 5",
-                "hora": "12:00"      
+                "palestrante":"",
+                "descricao": " Coffee Break",
+                "hora": "10:15"      
+            },
+            {
+                "palestrante":"",
+                "descricao": "Almoço",
+                "hora": "12:30"      
+            },
+            {
+                "palestrante":"Vinícius Campos – Consultor UNESCO/Ministério da Educação",
+                "descricao": "Superação do analfabetismo como um exemplo de uso de evidencias transversal entre áreas da política pública",
+                "hora": "15:00"      
+            },
+            {
+                "palestrante":"",
+                "descricao": "A definir",
+                "hora": "16:00"      
+            },
+            {
+                "palestrante":"Andreimar Soares – FIOCRUZ – R0",
+                "descricao": "Ciência, Educação, Saúde Única e Políticas Informadas por Evidências em prol da transformação social na Amazônia Ocidental",
+                "hora": "17:00"      
+            },
+            {
+                "palestrante":"",
+                "descricao": "Atração cultural",
+                "hora": "18:00"      
             }
         ]
        

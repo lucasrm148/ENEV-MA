@@ -1,0 +1,41 @@
+.LoginForm{
+    width: 40%;
+    height: 70dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    overflow: hidden;
+    margin-top: 10%;
+}
+.inputLogin{
+    width: 60%;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.divAuxLogin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 10px;
+}
+.buttonLogin{
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-top: 10px;
+    justify-self:flex-end;
+    background-color: rgb(62, 216, 165);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

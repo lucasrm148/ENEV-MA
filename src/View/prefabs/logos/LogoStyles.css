@@ -1,0 +1,35 @@
+#logos{
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+#Patrocinio{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.logo{
+    flex:1;
+    margin-left: 10px;
+    margin-right: 15px;
+    border-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .logo{
+        max-width: 250px;
+        max-height: 150px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .logo{
+        max-width: 450px;
+        max-height: 195px;
+    }
+}

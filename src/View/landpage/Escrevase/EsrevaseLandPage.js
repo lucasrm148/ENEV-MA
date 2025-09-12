@@ -3,9 +3,11 @@ import TimeNow from "./../../../Controller/ClienteInfo/TimeNow.js"
 import UserDeviceType from "../../../Controller/ClienteInfo/UserDeviceType"
 import "./EscrevaseLandPage.css"
 import generalData from "./../../../Constants/GeneralData.json"
+import { useNavigate } from "react-router-dom";
 const EventeData = generalData.EventData.EventDataTime;
 
 const EscrevasePage = () => {
+    const navigate = useNavigate();
     const eventeData = new Date(EventeData)
     
     const timer = TimeNow()
@@ -15,13 +17,9 @@ const EscrevasePage = () => {
     return (
         <div id="escrevasePage">
             <div id="escrevaseTimer">
-                {/*<div className="timerEsfera" id="esfera-ano">
-                    <p  className = "TextTimerEsfera">{timerTo.anos}</p>
-                    <p className="descricaoTimerEsfera">ano</p>
-                </div>*/}
                 <div className="timerEsfera" id="esfera-mes">
                     <p className="TextTimerEsfera">{timerTo.meses}</p>
-                    <p className="descricaoTimerEsfera"> MESES </p>
+                    <p className="descricaoTimerEsfera"> MES </p>
                 </div>
                 <div className="timerEsfera" id="esfera-dia">
                     <p className="TextTimerEsfera">{timerTo.dias}</p>
@@ -36,8 +34,8 @@ const EscrevasePage = () => {
                     <p className="descricaoTimerEsfera">MINUTOS </p>
                 </div>
             </div>
-            <a href="" id="escrevaseButton">
-                <p id="escrevaseButtonText">inscriçoes embreve</p>
+            <a href="https://www.even3.com.br/i-simpie-nortenordeste-ii-enev-ma-575317/"  id="escrevaseButton">
+                <p id="escrevaseButtonText">inscrições abertas</p>
             </a>
         </div>
         
